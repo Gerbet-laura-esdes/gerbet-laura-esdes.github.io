@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
 @import url('https://fonts.googleapis.com/css?family=Nanum+Pen+Script');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Song+Myung');
+@import url('https://fonts.googleapis.com/css?family=Courgette');
 
-* {
-    font-family: 'Nanum Pen Script';
     
 /** Header **/
-}
+
 html, body {
     height: 100%;
     margin: 0%;
@@ -23,12 +22,14 @@ header {
     flex-direction: column; 
     justify-content: center;
     align-items: center;
+    background-attachment: fixed;
 }
 
 header h1 {
     margin: 0%;
     background-color: rgba(15, 157, 232, 0.8);
     color: rgb(50, 50, 50);
+    font-family: 'Courgette';
     padding: 10px 10px 5px 5px;
     cursor: pointer;
     transition: all 0.3s cubic-bezier(.58,.46,.39,.89);
@@ -48,7 +49,8 @@ nav {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: #9e8b7f;
+    background-color: rgb(52, 73, 94);
+    font-family: 'Courgette';
 }
 
 .nav-item {
@@ -63,6 +65,7 @@ nav {
 
 .nav-item a, .nav-item a:visited {
     color: white;
+    text-decoration: none;
 }
 
 .nav-item:hover {
@@ -73,20 +76,37 @@ nav {
 /** SECTION **/
 
 
-/** Section article1 **/
+/** Section sectionprez1 **/
 
-#article1 {
+#sectionprez1 {
     margin: 0%;
-    height: 70%;
-    background-color: rgb(52, 73, 94);
+    
+    background-image: url("img/feuille.jpg");
     color: white;
     padding: 15px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
+#sectionprez1 article {
+    background-color: rgb(0,0,0,0.6);
+    padding: 15px;
+    font-family: 'Nunito';
+    flex: 1;
+}
 
-#article1 h2 {
+#sectionprez1 h2 {
     margin: 0%;
     text-transform: uppercase;
+}
+
+.img-pres {
+    background-image: url('img/team-diabolo.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex: 1;
 }
 
 /** Section Main Page **/
@@ -98,6 +118,7 @@ nav {
     justify-content:center ;
     align-items: center;
     background-color: rgb(252, 133, 125);
+    background-image: url("img/rose.jpg");
     min-height: 100%;
 }
 
@@ -105,6 +126,7 @@ nav {
     width: 25%;
     margin: 15px;
     text-decoration: none;
+    font-family: 'Courgette';
 }
 
 
@@ -112,6 +134,10 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center; 
+}
+
+#main-page article:hover {
+    filter: grayscale(100%);
 }
 
 #main-page article h2 {
