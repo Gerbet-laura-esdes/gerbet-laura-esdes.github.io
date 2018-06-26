@@ -90,6 +90,7 @@ nav {
     padding: 15px 30px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -225,15 +226,19 @@ footer {
     margin: 0%;
     text-align: center; 
     padding: 5px;
-
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
+
 
 footer a {
     text-decoration: none;
 }
 
 footer img {
-    margin: 1%;
-    width: 2%;
-    text-decoration: none;
+    margin: 10px;
+    width: 25px;
 }
