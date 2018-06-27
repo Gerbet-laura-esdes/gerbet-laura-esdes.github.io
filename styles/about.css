@@ -1,7 +1,81 @@
-img {
-    width: 50%;
-    display: flex; 
-    flex-direction: row;
-    justify-content: left;
+
+@import url('https://fonts.googleapis.com/css?family=Nanum+Pen+Script');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Song+Myung');
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+
+/** SECTION **/
+
+
+/** Section sectionprez1 **/
+
+#sectionprez1 {
+    margin: 0%;
+    background-image: url("../img/feuille.jpg");
+    color: white;
+    padding: 15px 30px;
 }
+
+#sectionprez1 article {
+    background-color: rgba(0,0,0,0.6);
+    padding: 15px;
+    font-family: 'Nunito';
+    flex: 1;
+}
+
+#sectionprez1 b {
+    font-variant: unset;
+    font-weight: bolder;
+    color : rgb(102, 196, 216);
+}
+
+#sectionprez1 a {
+    text-decoration: none;
+    font-style: italic;
+    color: rgb(252, 133, 125);
+}
+
+#sectionprez1 h1 {
+    margin: 0%;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.partie1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.parcours1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+/** Essaie N°1 : 
+
+
+.partie-img {
+    background-image: url('../img/promo-esdes.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex: 1;
+    width: 50%;
+}
+
+**/
+
+/** Essaie N°2 :
+
+.partie-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    flex: 1;
+} 
+**/
 

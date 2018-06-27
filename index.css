@@ -101,9 +101,22 @@ nav {
     flex: 1;
 }
 
-#sectionprez1 h2 {
+#sectionprez1 b {
+    font-variant: unset;
+    font-weight: bolder;
+    color : rgb(102, 196, 216);
+}
+
+#sectionprez1 a {
+    text-decoration: none;
+    font-style: italic;
+    color: rgb(252, 133, 125);
+}
+
+#sectionprez1 h1 {
     margin: 0%;
     text-transform: uppercase;
+    font-size: 25px;
 }
 
 .img-pres {
