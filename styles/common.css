@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Pen+Script');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Song+Myung');
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+
+
+
+html, body {
+    margin: 0%;
+    height: 100%;
+}
+
+header {
+    background-color: lightslategrey;
+    padding: 10px;
+}
+
+
+/** Navigation **/
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgb(52, 73, 94);
+    font-family: 'Courgette';
+    font-size: 20px;
+}
+
+.nav-item {
+    height: 75px;
+    min-width: 100px;
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav-item a, .nav-item a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    background-color: #9c9390;
+}
+
+
+.nav-item a, .nav-item a:visited {
+    color: white;
+}
+
+#current-nav-item {
+    background-color: #2aCEa0;
+}
+
+
+/** Footer **/
+
+footer {
+    margin: 0%;
+    text-align: center; 
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer img {
+    margin: 10px;
+    width: 25px;
+}
+
