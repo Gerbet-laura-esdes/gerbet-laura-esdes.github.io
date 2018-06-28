@@ -53,29 +53,31 @@
     flex-direction: column;
     width: 50%;
 }
-
-/** Essaie N°1 : 
-
-
-.partie-img {
-    background-image: url('../img/promo-esdes.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    flex: 1;
-    width: 50%;
+#parcours4{
+    margin-left: 51%;
 }
 
-**/
 
-/** Essaie N°2 :
 
-.partie-img {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+
+.partie-img{
+    background-image: url(../img/promo-esdes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 170%;
+    height: 500px;
+}
+
+.partie-img3{
+    background-image: url(../img/galway.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 50%;
-    flex: 1;
-} 
-**/
+    height: 471px;
+    display: inline-flex;
+    margin-top: -0.5%;
+    float: left;
+}
+
+
 
