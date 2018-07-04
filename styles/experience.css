@@ -1,0 +1,48 @@
+/** SECTION **/
+
+
+/** Section sectionprez1 **/
+
+#sectionprez1 {
+    margin: 0%;
+    background-image: url("../img/feuille.jpg");
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#sectionprez1 article {
+    background-color: rgba(0,0,0,0.6);
+    padding: 15px;
+    font-family: 'Nunito';
+    flex: 1;
+}
+
+#sectionprez1 b {
+    font-variant: unset;
+    font-weight: bolder;
+    color : rgb(102, 196, 216);
+}
+
+#sectionprez1 a {
+    text-decoration: none;
+    font-style: italic;
+    color: rgb(252, 133, 125);
+}
+
+#sectionprez1 h1 {
+    margin: 0%;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.img-pres {
+    background-image: url("../img/team-dvr.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex: 1;
+}

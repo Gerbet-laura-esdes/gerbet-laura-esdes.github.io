@@ -54,7 +54,7 @@ nav {
 }
 
 #current-nav-item {
-    background-color: #2aCEa0;
+    background-color: #9c9390;
 }
 
 
@@ -81,3 +81,23 @@ footer img {
     width: 25px;
 }
 
+/** Responsive **/
+/* Mobile */
+
+@media screen and (max-width: 600px) {
+    section {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    #main-page a {
+        width : 80%
+}
+}
+
+/* Tablette */
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    #main-page a {
+        width: 37%
+    }
+}
